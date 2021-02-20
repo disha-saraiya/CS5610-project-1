@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Handheld friendly reference from: https://developer.blackberry.com/playbook/html5/documentation/handheldfriendly.html-->
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../styles/commonstyles.css">
+    <link rel="stylesheet" href="../styles/projects.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Satisfy&display=swap" rel="stylesheet">    
+    <title>Disha's Portfolio</title>
+</head>
+<body>
+    <div class = "container">
+    <header>
+        <ul class="navbar">
+          <li><a href="../index.html">home</a></li>
+          <li><a class = "current" href="#">projects</a></li>
+          <li><a href="contactme.html">contact me</a></li> 
+          <li><a href="poetry.html">poetry written by me</a></li>         
+        </ul>
+      </header>
+
+
+    <div id = "projects" >
+        <h2 class = "typewriter heading"> Projects </h2>
+        <div class = "container">
+            <div class = "row">
+                <div class = "project shadow-large">
+                    <div class = "project-info">
+                        <a href = "https://github.com/nodeRage/delivery" target = "_blank" > <h3> Food Schmood </h3> </a>
+                        <h6> CS5500 Foundations of Software Engineering, Northeastern University Seattle </h6>
+                        <p>  Food Schmood is a full-stack food delivery application that is coded using Java Spark, MongoDB Atlas, and MithrilJS. 
+                             It uses REST API endpoints
+                             to send HTTPS requests to the backend, for various use cases such as ordering food from a restaurant, adding 
+                             a new customer, contacting drivers associated to orders, and such. The current frontend of the application has limited
+                             functionality, but the API endpoints are ready to go.   The project was designed and planned efficiently in periods of two-week sprints using the Agile methodology.                             
+                        </p>
+                        <a href = "https://food-schmood.glitch.me/#!/home" target = "_blank"> View Project </a> 
+                    </div>
+                </div>
+
+
+                <div class="project shadow-large">
+                    <div class="project-info">
+                    <a href = "https://github.ccs.neu.edu/dishasaraiya/HuskyHub" target = "_blank" > <h3> HuskyHub </h3> </a>
+                    <h6> CS5340 Computer/Human Interaction, Northeastern University Seattle </h6>
+                        <p>
+                            HuskyHub is an iOS application coded on React Native and ExpoCLI. HuskyHub is built exclusively for Northeastern University Seattle. 
+                            The motivation behind the application was to allow students
+                            to make connections with their peers, within the Seattle campus. It also allows promoting events such as workshops, meetups and independent student activities. 
+                            The application is built on the basis of the Don Norman Principles of Interaction Design, keeping beautiful, efficient and user friendly UI in mind. 
+                            In order to make the application most efficient, the team also conducted various stages of user interviews and user testing. The current application is to be expanded 
+                            as a group project within the Women in Tech community of NU Seattle. 
+                        </p>
+                        <a href="https://github.ccs.neu.edu/dishasaraiya/HuskyHub" target = "_blank">View Project</a>
+                    </div> 
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-info">
+                    <a href = "https://github.com/disha-saraiya/serverless-stack-notes-application" target = "_blank"> <h3> Scriber - A Serverless Note Taking Application </h3> </a>
+                    <h6> Personal Project - Inspired by ServerlessStack </h6>
+                        <p>
+                            Scriber is a fully managed, serverless note taking application that is built on React and AWS Lambda Functions. It also uses the Stripe payment API to 
+                            manage secure payments on a need-for-demand basis. Scriber uses AWS Cognito User Pool and Identity Pool for user authentication and stores the user data using AWS DynamoDB and S3. 
+                            It also uses REST API requests at various endpoints. 
+                            Scriber is currently under construction. 
+                        </p>
+                        <a href="https://github.com/disha-saraiya/serverless-stack-notes-application" target = "_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-info">
+                    <h3> Architecting GE Aviation's ITPP  </h3>
+                    <h6> Experiential Project : CS6620 Foundations of Cloud Computing, Northeastern University Seattle </h6>
+                        <p>
+                        Proposed a cloud architecture on AWS for GE Aviation’s ITTP for migration from GE servers to AWS servers.
+                        The various AWS services used are -  AWS Fargate, API Gateway, ELB, VPC, PrivateLink, S3, EC2, CloudTrail, CloudWatch, Well Architected Framework 
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

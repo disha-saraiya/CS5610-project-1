@@ -1,0 +1,40 @@
+.navbar {
+    position: sticky;
+    margin-top: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    align-content: center;
+    width: 80%;
+    height: auto;
+    border: 1px outset black ;
+    border-color:gray;
+    border-radius: 20px; 
+    font-family: 'Cedarville Cursive', cursive;
+
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 3px; 
+    padding: 15px; 
+    
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+
+  }
+  
+  .navbar a:hover {
+    background:lightcoral;
+  }
+  
+  .navbar .current {
+    background: lightyellow;
+    border-radius: 50%;
+  }
+  

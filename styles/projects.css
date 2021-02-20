@@ -1,0 +1,87 @@
+#projects {
+  text-align: center;
+  padding: 50px 15px;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+#projects h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+#projects h4 {
+  color: black;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.project {
+  position: relative;
+  display: block;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #d5f5eb;
+  border-radius: 4px;
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.project-info {
+  position: relative;
+  padding: 15px;
+}
+
+.project-info h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  margin: 0 0 5px 0;
+  font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.project-info h6 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: gray;
+  margin: 0 0 15px 0;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.project-info p {
+  color: black;
+  margin: 0 0 35px 0;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: justify;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.project-info a{
+    font-family: 'Cedarville Cursive', cursive;
+    color: black; 
+    transition: 1s;
+}
+
+.project-info a:hover{
+    background-color: lightcoral; 
+    font-size: larger;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-large {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}

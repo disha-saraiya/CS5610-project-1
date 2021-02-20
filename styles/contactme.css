@@ -1,0 +1,52 @@
+.grid-wrapper {
+    display: grid; 
+    grid-template-areas: 
+    "email linkedin"
+    "github portfolio"; 
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-radius: 3em;
+    text-align: center;
+  }
+  
+  .grid-item {
+    margin: 10px; 
+    border: 2px solid lightsalmon;
+    padding: 4em;
+    font-size: 1.2em;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    width: inherit;
+    height: 50px;
+  }
+
+  .grid-item a{
+    color: black; 
+  }
+
+  .grid-image{
+      width: 60px; 
+      height: 60px; 
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      border-radius: 3em;
+      text-align: center;
+    }
+  
+    .grid-item {
+    margin: 5px; 
+      border: 2px solid lightsalmon;
+      padding: 4em;
+      font-size: 1em;
+      font-family: 'Cedarville Cursive', cursive;
+      text-align: center;
+      width: auto;
+      height: 50px;
+    }
+}
+  
